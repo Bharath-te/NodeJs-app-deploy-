@@ -1,6 +1,6 @@
 FROM node
 WORKDIR /nodeapp
-COPY req.json
+COPY package.json
 RUN npm install
 COPY . .
 CMD ["node","server.js"]
