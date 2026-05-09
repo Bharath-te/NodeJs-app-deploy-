@@ -18,3 +18,6 @@ CMD ["node","server.js"]
 =======================
 
 this is practice for jenkins pipeline
+
+=== 
+poll scm traigger  edit 
