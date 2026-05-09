@@ -14,3 +14,7 @@ FROM firststage as final
 RUN npm install --production
 COPY . .
 CMD ["node","server.js"]
+
+=======================
+
+this is practice for jenkins pipeline
